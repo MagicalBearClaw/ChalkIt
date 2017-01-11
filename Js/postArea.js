@@ -121,7 +121,7 @@ function CreateAllStickies()
 					// add the event handler for delteing a sticky.
 					$("#"+ id + "> #closeBtn").click(function(e)
 					{
-						var clickedId = e.target.parentElement.id;
+						var clickedId = $(this).parent().attr("id")
 						DeleteSticky(clickedId);
 					});
 
@@ -197,6 +197,7 @@ function UpdateSticky(id, top, left)
 // delete a sticky given its id.
 function DeleteSticky(id)
 {
+	console.log("this id is:" + id);
 	var args = "id=" + id;
 	var xhttpReq = new XMLHttpRequest();
 	xhttpReq.open("POST", "deleteSticky.php", true);

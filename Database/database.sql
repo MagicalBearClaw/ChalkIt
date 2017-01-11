@@ -47,7 +47,7 @@ CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `UserName` varchar(15) NOT NULL,
   `Password` varchar(255) NOT NULL,
-  `attemps` int(11) NOT NULL,
+  `attemps` int(11) DEFAULT 0,
   PRIMARY KEY (`id`),
   UNIQUE KEY `UserName_UNIQUE` (`UserName`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

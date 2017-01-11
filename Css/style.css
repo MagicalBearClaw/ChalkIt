@@ -1,0 +1,180 @@
+
+.brandText.navbar-text
+{
+
+	font-size: 36px;
+	color: white;
+}
+.chalk-it.navbar-text
+{
+	text-decoration: none;
+	font-size: 36px;
+	color: white;
+	font-family: "chalk";
+}
+.background-login
+{
+	background-color: rgb(77,86,89);
+}
+
+.hide-errors
+{
+	display:none; 
+}
+
+.hide
+{
+	display:none; 
+}
+
+.show-errors
+{
+	display:block; 
+}
+
+.chalk-it-text
+{
+	color: white;
+	font-family: "chalk";
+}
+.chalk-it-footer.navbar-text
+{
+
+	font-size: 20px;
+	color: white;
+	font-family: "chalk";
+}
+
+.brandImage-default
+{
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+.brandImage
+{
+	margin-left: 5px;
+	margin-top: -22px;
+}
+.application
+{
+	padding: 0;
+	margin: 0;
+	background-image: url("../Images/chalkBoard.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.loginForm
+{
+	color: white;
+}
+
+.close-button
+{
+	color: rgb(255,255,255);
+	cursor:pointer;
+	clear: both;
+	font-family: "chalk";
+	font-size: 30px;
+}
+
+.vertical-center
+{
+	display: flex;
+	align-items: center;
+}
+
+html, body
+{
+	height:100%; 
+	margin:0;
+	padding:0
+}
+
+input[type='button'].create-button
+{
+	margin-left: 25px;
+	margin-top: 25px;
+	height: 31px;
+	width: 79px;
+	background-color: transparent;
+	background-image: url("../Images/createButton.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+    border: none;           
+    cursor: pointer;  
+}
+
+.container-fluid-cs
+{
+  height:60%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+ 
+.row-fluid 
+{
+	height: 100%; 
+	display:table-cell; 
+	vertical-align: middle;
+}
+.centering 
+{
+  float:none;
+  margin:0 auto;
+}
+
+.mainBackground
+{
+	padding: 0;
+	margin: 0;
+	background-image: url("../Images/background.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.postIt-board
+{
+	width: 100%; 
+	height: 81%; 
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+@font-face {
+    font-family: "chalk";
+    src: url("../fonts/draserdust.ttf") format('truetype');
+    font-weight: normal;
+	font-style: normal;
+}
+
+.chalk-text
+{
+	font-family: "chalk";
+	color: white;
+	font-size: 16px;
+}
+
+.postIt-note
+{
+
+	word-wrap: break-word;
+	background: rgba(255, 255, 255, 0);
+	background-image: url("../Images/note.png"); 
+	border: none;
+	position:absolute;
+	width:240px; 
+	height:240px; 
+	cursor:move;
+	padding:  5px;  
+}
+
+.ui-dialog-osx {
+    -moz-border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+    border-radius: 0 0 8px 8px; border-width: 0 8px 8px 8px;
+}
